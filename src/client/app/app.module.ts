@@ -3,7 +3,7 @@
  */
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {MainComponent} from './main.component';
+import {MainComponent} from './app.component';
 
 @NgModule({
   imports: [BrowserModule],
