@@ -1,13 +1,16 @@
 {
-  "name": "ng-template",
+  "name": "ng2-template",
   "version": "0.0.1",
-  "description": "",
+  "description": "A small lightweight Angular2 server/client template",
   "main": "index.js",
   "keywords": [],
-  "author": "",
+  "author": "Christian Schrödel",
   "license": "ISC",
   "scripts": {
     "start": "node dist/server/server.js",
+    "build.all": "gulp build",
+    "build.client": "gulp build.client",
+    "build.server": "gulp build.server",
     "postinstall": "typings install"
   },
   "dependencies": {
