@@ -12,6 +12,6 @@ export class HelloWorldComponent {
   private welcomePhrase: string;
 
   constructor() {
-    this.welcomePhrase = 'Hello World! Your Template is running fine :-)';
+    this.welcomePhrase = 'Hello World! Your App is running fine on an express server :-)';
   }
 }
