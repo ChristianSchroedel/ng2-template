@@ -1,6 +1,6 @@
 {
   "name": "ng2-template",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A small lightweight Angular2 server/client template",
   "main": "index.js",
   "keywords": [],
@@ -8,9 +8,11 @@
   "license": "ISC",
   "scripts": {
     "start": "node dist/server/server.js",
+    "clean": "gulp clean",
     "build.all": "gulp build",
     "build.client": "gulp build.client",
     "build.server": "gulp build.server",
+    "serve.dev": "gulp serve.dev",
     "postinstall": "typings install"
   },
   "dependencies": {
@@ -33,13 +35,17 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "connect-livereload": "^0.5.4",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
+    "gulp-express": "^0.3.5",
+    "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-tslint": "^6.1.1",
     "gulp-typescript": "^2.13.6",
     "run-sequence": "^1.2.2",
+    "tiny-lr": "^0.2.1",
     "tslint": "^3.15.1"
   }
 }
