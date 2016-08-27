@@ -9,11 +9,11 @@
   "scripts": {
     "start": "node dist/server/server.js",
     "clean": "gulp clean",
-    "build.all": "gulp build",
+    "build.all": "gulp build.dev",
     "build.client": "gulp build.client",
     "build.server": "gulp build.server",
     "serve.dev": "gulp serve.dev",
-    "postinstall": "typings install"
+    "postinstall": "cd ./src/client && typings install && cd ../server && typings install"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.5",
@@ -39,7 +39,6 @@
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
-    "gulp-express": "^0.3.5",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-tslint": "^6.1.1",
