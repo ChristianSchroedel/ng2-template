@@ -1,7 +1,5 @@
 .idea
 node_modules
-src/**/typings
-*.js
-*.js.map
+typings
 dist
 npm-debug.log
