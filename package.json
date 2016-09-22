@@ -1,6 +1,6 @@
 {
   "name": "ng2-template",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A small lightweight Angular2 server/client template",
   "main": "main.js",
   "keywords": [],
