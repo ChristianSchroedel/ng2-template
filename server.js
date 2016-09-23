@@ -2,7 +2,7 @@
 
 var express = require('express');
 var path = require('path');
-var PORT = 5555;
+var PORT = process.env.PORT || 5555;
 var app = express();
 
 var DIST_DIR = path.resolve(__dirname, 'dist');
@@ -13,5 +13,5 @@ app.get('*', function (req, res) {
 });
 
 app.listen(PORT, function () {
-  console.log('app listening on port: ' + PORT);
+  console.log('app listening on port: ' + this.address().port);
 });
