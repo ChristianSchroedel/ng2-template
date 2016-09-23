@@ -5,7 +5,7 @@
   "main": "server.js",
   "keywords": [],
   "author": "Christian Schrödel",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
