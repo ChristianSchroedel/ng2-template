@@ -1,11 +1,11 @@
 {
   "name": "ng2-template",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A small lightweight Angular2 server/client template",
-  "main": "main.js",
+  "main": "server.js",
   "keywords": [],
   "author": "Christian Schrödel",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
