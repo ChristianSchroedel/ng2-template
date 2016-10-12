@@ -10,5 +10,5 @@ import {HelloWorldComponent} from './components/hello-world/hello-world.componen
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss']
 })
-export class MainComponent {
+export class AppComponent {
 }

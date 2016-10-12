@@ -3,13 +3,13 @@
  */
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {MainComponent} from './app.component';
+import {AppComponent} from './app.component';
 import {HelloWorldComponent} from './components/hello-world/hello-world.component';
 
 @NgModule({
   imports: [BrowserModule],
-  declarations: [MainComponent, HelloWorldComponent],
-  bootstrap: [MainComponent],
+  declarations: [AppComponent, HelloWorldComponent],
+  bootstrap: [AppComponent],
 })
-export class MainModule {
+export class AppModule {
 }
