@@ -5,7 +5,7 @@ var path = require('path');
 var PORT = process.env.PORT || 5555;
 var app = express();
 
-var DIST_DIR = path.resolve(__dirname, 'dist');
+var DIST_DIR = path.resolve(__dirname, '../dist');
 
 app.use('/', express.static(DIST_DIR));
 app.get('*', function (req, res) {
