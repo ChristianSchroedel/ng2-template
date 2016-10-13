@@ -7,7 +7,7 @@
   "author": "Christian Schrödel",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8080",
+    "start": "webpack-dev-server --inline --progress --port 8080 --open",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
     "build.dev": "rimraf dist && webpack --config config/webpack.dev.js --progress --profile --bail",
     "test": "karma start",
